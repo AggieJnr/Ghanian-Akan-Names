@@ -55,3 +55,9 @@ p{
 body{
     background-color: rgb(26, 247, 247);
 }
+img{
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
