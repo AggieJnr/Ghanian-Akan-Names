@@ -1,0 +1,45 @@
+nav {
+    width: 100%;
+    font-family: monospace;
+    z-index: 10;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+nav > ul {
+    text-align: left;
+}
+nav > ul > li {
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a {
+    width: 20px;
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+}
+nav .btn-primary {
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+nav .btn-primary:hover {
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    background-color: #FC766A;
+}
+h1{
+    display: block;
+    text-align: center;
+    color: #500202;
+}
+.card-deck{
+    padding: 40px 40px 40px 40px;
+    justify-content: space-around;
+    margin: 40px 40px 40px 40px;
+}
+.card{
+    color: darksalmon;
+    justify-content: space-between;
+}
