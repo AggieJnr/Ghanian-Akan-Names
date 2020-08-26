@@ -2,11 +2,11 @@ nav {
     width: 100%;
     font-family: monospace;
     z-index: 10;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-right: 30px;
 }
 nav > ul {
-    text-align: left;
+    text-align: right;
 }
 nav > ul > li {
     list-style: none;
@@ -16,7 +16,7 @@ nav ul li a {
     width: 20px;
     color: white;
     padding: 10px;
-    font-size: 1.5em;
+    font-size: small;
 }
 nav .btn-primary {
     text-decoration: none;
@@ -27,19 +27,22 @@ nav .btn-primary:hover {
     text-decoration: none;
     color: white;
     border-radius: 5px;
-    background-color: #FC766A;
+    background-color: #ecc3c3;
 }
 h1{
     display: block;
     text-align: center;
-    color: #500202;
+    color: #610e0e;
 }
 .card-deck{
-    padding: 40px 40px 40px 40px;
+    padding: 20px 20px 20px 20px;
     justify-content: space-around;
-    margin: 40px 40px 40px 40px;
+    margin: 20px 20px 20px 20px;
 }
 .card{
-    color: darksalmon;
+    color: rgb(236, 63, 5);
     justify-content: space-between;
+}
+body{
+    background-color: rgb(26, 247, 247);
 }
